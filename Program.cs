@@ -1,10 +1,10 @@
 ﻿/* Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
 452 -> 11
 82 -> 10
-9012 -> 12 */
+9012 -> 12*/
 
 int number = Convert.ToInt32(Console.ReadLine()!);
-int lenghth = NumberLen(number);
+int lenghth = NumberLen(number); 
 
 SumNumbers(number, lenghth);
 
@@ -29,3 +29,4 @@ void SumNumbers(int n, int lenghth)
     }
     Console.WriteLine($"{number} -> {sum}");
 }
+
